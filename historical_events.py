@@ -10,6 +10,10 @@ def get_events(month, day):
     return events
 
 # set up Streamlit web app
+st.set_page_config(
+    page_title="Historical Events"
+)
+
 st.title("Historical Events Viewer")
 st.write("Enter a date to get historical events: ")
 month = st.number_input("Enter the month (1-12):", min_value=1, max_value=12, step=1)
