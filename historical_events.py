@@ -12,7 +12,7 @@ def get_events(month, day):
 # set up Streamlit web app
 st.set_page_config(
     page_title="Historical Events",
-    page_icon="📚"
+    page_icon="📖"
 )
 
 st.title("Historical Events Viewer")
